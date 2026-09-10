@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - xiaohe
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: ir.dl.stormrp.ir
+  server: 172.67.137.223
   port: 443
-  uuid: 2592b640-5060-4cc8-9ad7-bd2834a2d45b
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ir.dl.stormrp.ir
+  servername: curly-night-6928.ggdhchjk.workers.dev
   network: ws
   ws-opts:
-    path: /api-mp4
+    path: /sync
     headers:
-      Host: ir.dl.stormrp.ir
+      Host: curly-night-6928.ggdhchjk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
