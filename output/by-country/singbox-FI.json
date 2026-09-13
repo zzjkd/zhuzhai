@@ -1,27 +1,46 @@
 {
-  "version": 1,
+  "log": {
+    "level": "warn"
+  },
   "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
+      "server": "144.31.7.182",
+      "server_port": 443,
+      "uuid": "becd3b04-62a8-4b74-be67-be746008b4c2",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-582.spliceflowtech.com",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
       ],
-      "url": "https://www.google.com/generate_204"
+      "url": "https://www.gstatic.com/generate_204"
     },
     {
       "type": "direct",

@@ -4,30 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - xiaohe
-  type: vless
+- name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
   server: 38.60.168.98
   port: 2087
-  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
   udp: true
-  tls: false
-  skip-cert-verify: true
+  type: vless
+  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
   network: ws
   ws-opts:
     path: /db55c40bbc75
-    headers:
-      Host: 38.60.168.98
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 - name: AUTO
   type: url-test
-  url: https://www.google.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

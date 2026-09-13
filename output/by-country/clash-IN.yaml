@@ -5,60 +5,45 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaohe
+  server: 194.61.31.126
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  tls: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇮🇳 印度 (India) 02 - xiaohe
+  server: vpn-in-001.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: planb.mojcn.com.linuxlh.xin
+  port: 16626
+  udp: true
   type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  uuid: 302cf141-f8e2-448d-aca5-3ad9e9f1b4c1
   alterId: 0
   cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 02 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 03 - xiaohe
-  type: vless
-  server: 172.67.208.1
-  port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: odd-violet-5440.asdgrweeee13.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: odd-violet-5440.asdgrweeee13.workers.dev
+      Host: d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com
 - name: 🇮🇳 印度 (India) 04 - xiaohe
-  type: vless
-  server: 104.21.69.118
-  port: 443
-  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
+  server: 139.84.166.47
+  port: 8388
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: odd-violet-5440.asdgrweeee13.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: odd-violet-5440.asdgrweeee13.workers.dev
+  type: ss
+  cipher: aes-256-gcm
+  password: GEdoeeqLZtkJRgSa
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,7 +55,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - xiaohe
 - name: AUTO
   type: url-test
-  url: https://www.google.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇳 印度 (India) 01 - xiaohe

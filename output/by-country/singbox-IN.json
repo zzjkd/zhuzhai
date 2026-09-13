@@ -1,6 +1,63 @@
 {
-  "version": 1,
+  "log": {
+    "level": "warn"
+  },
   "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 01 - xiaohe",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+          "short_id": "9980e0609b0d3891"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
+      "server": "vpn-in-001.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "server": "planb.mojcn.com.linuxlh.xin",
+      "server_port": 16626,
+      "uuid": "302cf141-f8e2-448d-aca5-3ad9e9f1b4c1",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
+    },
     {
       "type": "selector",
       "tag": "select",
@@ -21,7 +78,7 @@
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe"
       ],
-      "url": "https://www.google.com/generate_204"
+      "url": "https://www.gstatic.com/generate_204"
     },
     {
       "type": "direct",
