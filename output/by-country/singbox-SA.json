@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
-      "server": "188.130.207.30",
-      "server_port": 2053,
+      "server": "129.151.64.169",
+      "server_port": 31867,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -16,7 +16,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/m?ed=2560fp=chrome",
+        "path": "/files",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
