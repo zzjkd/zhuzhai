@@ -6,17 +6,21 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "203.137.165.164",
-      "server_port": 57554,
+      "server": "138.2.59.96",
+      "server_port": 10129,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
         "server_name": "cdn8848.776676.xyz",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/p/docs/soft?ed=2560",
+        "path": "/movie/help/events?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
