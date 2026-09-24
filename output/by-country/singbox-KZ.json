@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇷 IR 01 - xiaohe",
-      "server": "g2.haxat.bestvbest.ir",
-      "server_port": 20610,
-      "uuid": "8ec5d86b-d895-477d-bc96-21fa01049f2f",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+      "server": "kazartip.thewalkingded.life",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn-apple.com",
+        "server_name": "kazartip.thewalkingded.life",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI",
-          "short_id": "1d1a8f9fefeff5e6"
+          "public_key": "5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I",
+          "short_id": "7cf408996c82639f"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
