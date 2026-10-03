@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  server: 77.74.123.103
+  server: 77.74.123.102
   port: 8443
   udp: true
   type: hysteria2
@@ -23,7 +23,7 @@ proxies:
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
-  server: 109.104.106.15
+  server: 109.104.106.149
   port: 443
   udp: true
   type: vless
@@ -34,7 +34,7 @@ proxies:
     public-key: a_v5l6R-rpVGlENLeONW4sz-GdRwIoDqISOWXGov8nw
     short-id: 87709fed663228e5
   servername: d3-ro.cloud-cdn.xyz
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
