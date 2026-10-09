@@ -25,7 +25,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "estproxy4.lockdwn.com"
+          "Host": "94.183.170.135"
         }
       }
     },
@@ -41,7 +41,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -54,16 +54,29 @@
       "tls": {
         "enabled": true,
         "server_name": "fdghyt.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/vpn-wss/fluxor/59011/",
         "headers": {
           "Host": "fdghyt.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe",
+      "server": "79.98.37.18",
+      "server_port": 2097,
+      "password": "gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU",
+      "tls": {
+        "enabled": true,
+        "server_name": "stoniy.fytpn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -75,7 +88,8 @@
         "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe"
       ]
     },
     {
@@ -85,7 +99,8 @@
         "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
