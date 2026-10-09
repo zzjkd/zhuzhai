@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
-  server: platform102.golnamakcert.top
-  port: 80
+- name: 🇮🇶 IQ 01 - xiaohe
+  server: 104.21.87.238
+  port: 8080
   udp: true
   type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 8f53fce2-6c17-4e37-9ae9-d969fd85117c
   network: ws
   ws-opts:
-    path: /platform102
+    path: /vl/Wp4FqWLcoYNYXCovu4?ed=2560
     headers:
-      Host: platform102.golnamakcert.top
+      Host: ApI-hub-C9A393.ALiMiRZAi539-484.WOrKerS.DeV
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
