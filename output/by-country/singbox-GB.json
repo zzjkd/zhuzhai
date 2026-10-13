@@ -4,16 +4,54 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 英国 (United Kingdom) 01 - xiaohe",
-      "server": "149.102.149.207",
+      "server": "162.159.152.4",
       "server_port": 443,
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "tls": {
+        "enabled": true,
+        "server_name": "rayan-007.maxima.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "rayan-007.maxima.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+      "server": "149.102.149.207",
+      "server_port": 80,
       "method": "aes-256-gcm",
       "password": "LXchLsIwtCeUAUgu"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
+      "server": "149.102.132.184",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "g5h5jleTRSyO3Rk4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 04 - xiaohe",
+      "server": "149.102.132.184",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "g5h5jleTRSyO3Rk4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 05 - xiaohe",
       "server": "141.98.101.181",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -21,66 +59,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 03 - xiaohe",
-      "server": "146.70.23.32",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 04 - xiaohe",
-      "server": "149.102.149.207",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "LXchLsIwtCeUAUgu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 05 - xiaohe",
-      "server": "149.102.132.184",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "g5h5jleTRSyO3Rk4"
-    },
-    {
-      "type": "vless",
       "tag": "🇬🇧 英国 (United Kingdom) 06 - xiaohe",
-      "server": "186.190.211.188",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "tls": {
-        "enabled": true,
-        "server_name": "186.190.211.188",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
-      "server": "146.70.61.18",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
-      "server": "149.102.132.184",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "g5h5jleTRSyO3Rk4"
+      "server": "51.77.225.200",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zRZNBszYyWo5"
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 07 - xiaohe",
       "server": "23.81.34.204",
       "server_port": 443,
       "uuid": "99955907-9070-46f0-a200-9c7a0b9d74fe",
@@ -100,24 +87,59 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 10 - xiaohe",
-      "server": "146.70.61.37",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇬🇧 英国 (United Kingdom) 11 - xiaohe",
-      "server": "18.168.148.212",
-      "server_port": 443,
-      "password": "Trojan@82164024",
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 08 - xiaohe",
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "8e790f25-1d71-4601-9fb0-d503931dcfca",
       "tls": {
         "enabled": true,
-        "server_name": "gb.tronsg.com",
-        "insecure": false
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0",
+          "short_id": "d051f678212f9d54"
+        }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 09 - xiaohe",
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "tls": {
+        "enabled": true,
+        "server_name": "186.190.211.188",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 10 - xiaohe",
+      "server": "94.156.250.148",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 11 - xiaohe",
+      "server": "149.102.149.207",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu"
     },
     {
       "type": "vless",
@@ -130,7 +152,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -150,7 +172,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
