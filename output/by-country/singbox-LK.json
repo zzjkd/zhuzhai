@@ -4,21 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": true
-      },
+      "type": "vless",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
+      "server": "free.sahanwickramasinghe.me",
+      "server_port": 80,
+      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "free.sahanwickramasinghe.me"
         }
       }
     },
@@ -27,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
