@@ -5,26 +5,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "172.67.214.106",
-      "server_port": 443,
-      "uuid": "5ffee9b2-4514-4719-97b3-67810ece038d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ali-panel-1.terhav.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vertex",
-        "headers": {
-          "Host": "ali-panel-1.terhav.workers.dev"
-        }
-      }
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "vless",
@@ -37,7 +21,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -47,29 +31,20 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - xiaohe",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
