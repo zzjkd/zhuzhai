@@ -4,29 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: ccs2g.pai50288.uk
-  port: 443
+- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  port: 2086
   udp: true
   type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-  tls: true
-  servername: ccs2g.pai50288.uk
-  skip-cert-verify: false
+  uuid: 73796e63-0000-4000-8000-000000000007
   network: ws
   ws-opts:
-    path: /pai50288
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
 rules:
 - MATCH,PROXIES
