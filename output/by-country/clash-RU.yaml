@@ -14,7 +14,7 @@ proxies:
   reality-opts:
     public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
   servername: github.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
@@ -29,7 +29,7 @@ proxies:
     public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
     short-id: ce1dc482
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 130.49.189.158
   port: 43558
@@ -43,22 +43,34 @@ proxies:
   udp: true
   type: hysteria2
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
+  sni: 'off'
   skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 153.80.241.206
-  port: 8444
+  server: m-vruvc.mvpstr.com
+  port: 443
   udp: true
   type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  uuid: 7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: github.com
-  client-fingerprint: ios
+    public-key: ZtAlhN1pU4MTmv4KaX9J_5_8KWnwy9IOnc-BLzIf234
+    short-id: 11ac376e18d20343
+  servername: m-vruvc.mvpstr.com
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: xsru1.ddnsfree.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xsru1.ddnsfree.com
+  skip-cert-verify: false
+  client-fingerprint: random
   network: grpc
   grpc-opts:
-    grpc-service-name: GunService
+    grpc-service-name: grpc-ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +81,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,5 +92,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -14,7 +14,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -38,7 +38,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -63,32 +63,49 @@
       "password": "7ab3c77e-8fcc-4848-918f-cae3d4eac794",
       "tls": {
         "enabled": true,
-        "server_name": "match-stream.lovkisport.blog",
+        "server_name": "off",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "153.80.241.206",
-      "server_port": 8444,
-      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
+      "server": "m-vruvc.mvpstr.com",
+      "server_port": 443,
+      "uuid": "7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "m-vruvc.mvpstr.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": ""
+          "public_key": "ZtAlhN1pU4MTmv4KaX9J_5_8KWnwy9IOnc-BLzIf234",
+          "short_id": "11ac376e18d20343"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "server": "xsru1.ddnsfree.com",
+      "server_port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "xsru1.ddnsfree.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "grpc",
-        "service_name": "GunService"
+        "service_name": "grpc-ru"
       }
     },
     {
@@ -100,7 +117,8 @@
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ]
     },
     {
@@ -111,7 +129,8 @@
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
