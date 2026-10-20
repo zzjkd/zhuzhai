@@ -25,6 +25,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+    headers:
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 03 - xiaohe
   server: 152.67.8.205
   port: 80
