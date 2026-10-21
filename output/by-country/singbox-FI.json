@@ -12,7 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "fi1.merky.one",
-        "insecure": false,
+        "insecure": true,
         "alpn": [
           "http/1.1"
         ],

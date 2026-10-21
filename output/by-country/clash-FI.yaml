@@ -12,7 +12,7 @@ proxies:
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   tls: true
   servername: fi1.merky.one
-  skip-cert-verify: false
+  skip-cert-verify: true
   client-fingerprint: firefox
   network: ws
   ws-opts:
