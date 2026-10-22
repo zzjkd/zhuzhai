@@ -28,7 +28,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -49,7 +49,7 @@
         "server_name": "in1.vkusnews.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -67,7 +67,9 @@
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/"
+        "headers": {
+          "Host": "in-152.67.8.205-0250"
+        }
       }
     },
     {
