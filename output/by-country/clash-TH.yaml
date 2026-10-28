@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: 38.60.254.50
+  server: th001.zestapp778.com
   port: 22222
   udp: true
   type: vless
@@ -13,6 +13,7 @@ proxies:
   tls: true
   servername: th001.zestapp778.com
   skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
   server: 45.154.26.63
   port: 443
