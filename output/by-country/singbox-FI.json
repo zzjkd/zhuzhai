@@ -18,30 +18,9 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-      "server": "89.144.53.4",
-      "server_port": 8445,
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "videos.porsche.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "104.18.0.1",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+      "server": "188.114.96.3",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "tls": {
@@ -61,6 +40,27 @@
         "path": "/",
         "headers": {
           "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "88742d38-3f5c-4b9c-b256-7df5db8257ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
+          "short_id": "8f79726c5002"
         }
       }
     },

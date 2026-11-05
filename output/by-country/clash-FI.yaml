@@ -16,20 +16,7 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 89.144.53.4
-  port: 8445
-  udp: true
-  type: vless
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: videos.porsche.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 104.18.0.1
+  server: 188.114.96.3
   port: 2053
   udp: true
   type: trojan
@@ -39,6 +26,19 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: 107.181.151.128
+  port: 443
+  udp: true
+  type: vless
+  uuid: 88742d38-3f5c-4b9c-b256-7df5db8257ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
+    short-id: 8f79726c5002
+  servername: www.mozilla.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

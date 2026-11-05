@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
+  server: 141.0.187.15
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
+  sni: crt.onecloudstream.com
+  skip-cert-verify: false
+- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
   server: 31.77.236.114
   port: 443
   udp: true
@@ -17,14 +25,6 @@ proxies:
     short-id: 1a2b3c4d
   servername: files.porsche.com
   client-fingerprint: firefox
-- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
-  server: 141.0.187.15
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  sni: crt.onecloudstream.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

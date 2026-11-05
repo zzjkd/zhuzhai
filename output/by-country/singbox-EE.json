@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "141.0.187.15",
+      "server_port": 443,
+      "password": "70043bfa-d6fb-4980-b27e-773e9e8b2004",
+      "tls": {
+        "enabled": true,
+        "server_name": "crt.onecloudstream.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
       "server": "31.77.236.114",
       "server_port": 443,
       "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
@@ -22,18 +34,6 @@
           "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
           "short_id": "1a2b3c4d"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-      "server": "141.0.187.15",
-      "server_port": 443,
-      "password": "70043bfa-d6fb-4980-b27e-773e9e8b2004",
-      "tls": {
-        "enabled": true,
-        "server_name": "crt.onecloudstream.com",
-        "insecure": false
       }
     },
     {
