@@ -28,7 +28,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
+  sni: whatsapp.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 202.146.222.89
@@ -39,17 +39,13 @@ proxies:
   sni: https://t.me/clashv8🇨🇳
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  server: 209.33.160.122
-  port: 39098
+  server: 47.129.105.174
+  port: 50000
   udp: true
-  type: vless
-  uuid: 7852e4df-db54-4f75-a35e-3b8fbe89e56d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg
-  servername: dash.cloudflare.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: g4EKHBpZQ9ckIhFRyi3gHDFh
+  sni: sg-transit-3.nebulacloud.win
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select

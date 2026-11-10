@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "104.18.15.19",
-      "server_port": 8443,
-      "uuid": "226279dd-28b2-4b61-96be-a2a0b1afd522",
+      "tag": "🇮🇸 冰岛 (Iceland) 01 - xiaohe",
+      "server": "191.44.112.170",
+      "server_port": 443,
+      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
       "tls": {
         "enabled": true,
-        "server_name": "hk.zhaoqing.city",
+        "server_name": "orbylume.my.to",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "path": "/tvpn-tor/is",
         "headers": {
-          "Host": "hk.zhaoqing.city"
+          "Host": "orbylume.my.to"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇮🇸 冰岛 (Iceland) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇮🇸 冰岛 (Iceland) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
