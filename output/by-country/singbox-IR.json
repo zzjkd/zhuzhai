@@ -5,22 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-      "server": "46.29.255.123",
-      "server_port": 59539,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "185.178.208.167",
+      "server_port": 443,
+      "uuid": "4eebdec5-08eb-4772-a0e6-35fec4c91cb0",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare-dns.com",
+        "server_name": "uwugirl.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ",
-          "short_id": ""
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/player/collect/9c8514f9552d/",
+        "headers": {
+          "Host": "speakpro.lol"
         }
       }
     },
@@ -29,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
